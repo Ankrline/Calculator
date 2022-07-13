@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+margin: 0;
+font-family: "Share Tech Mono", "Segoe UI", Tahoma, Geneva, Verdana,
+  sans-serif;
+overflow: hidden;
+background-color: gray;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#calculator {
+  width: 20rem;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 24px 10px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#display {
+  width: 100%;
+  min-height: 5rem;
+  overflow-wrap: break-word;
+  font-family: "poppins";
+  background-color: rgb(24 24 24);
+  text-align: right;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  position: relative;
+}
+#resultado{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.button{
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  color:#fff;
+  
+}
+.button:hover{ 
+  background-color: black;
+}
+.item-eq {
+  background-color: #00b84c !important;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  grid-area: 4/4/6/4;
+  width: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  color:#fff;
+}
+.item-eq:hover {
+background-color: #0c813d !important;
+}
+.dark {
+background-color: rgb(37, 37, 37) !important;
+width: 70px;
+height: 70px;
+}
+.dark:hover {
+background-color: rgb(58, 58, 58) !important;
+}
+.dark {
+font-family: digital;
+}
+.itemAC {
+  background-color: rgb(194, 0, 90) !important;
+  font-family: "Share Tech Mono" !important;
+  font-weight: normal !important;
+  font-size: 25px;
+    cursor: pointer;
+    margin: 3px; 
+    color:#fff;
+}
+.itemAC:hover {
+  background-color: rgb(139, 21, 76) !important;
+}
